@@ -1,0 +1,37 @@
+# Core Dependencies
+fastapi>=0.115.8
+uvicorn>=0.34.0
+sqlalchemy>=2.0.38
+alembic>=1.14.1
+pydantic>=2.10.6
+pydantic-settings>=2.7.1
+click>=8.1.8
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.20
+python-dotenv>=1.0.1
+email-validator>=2.1.0
+
+# HTTP Client
+aiohttp>=3.11.12
+
+# Azure Cloud Services
+azure-storage-blob>=12.24.1        # Azure Blob Storage
+azure-cognitiveservices-speech>=1.42.0  # Azure Speech Services
+openai>=1.63.0                     # OpenAI/Azure OpenAI
+
+# File Processing & Media
+Pillow>=11.1.0          # Image processing
+aiofiles>=24.1.0        # Async file operations
+numpy>=2.0.2            # Numerical computations
+
+# Development & Testing
+black>=25.1.0           # Code formatting
+pytest>=8.3.4           # Testing framework
+
+# Notes:
+# - Version numbers are set as minimums (>=) to allow compatible updates
+# - Remove any unused dependencies to keep the environment minimal
+# - Update versions periodically for security fixes
